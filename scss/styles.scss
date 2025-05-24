@@ -457,6 +457,20 @@ footer {
         color: $text;
         margin: 0;
     }
+
+#career-objective {
+    padding: 75px 15px;
+    border-bottom: 1px solid $border;
+
+    h2 {
+        color: $heading;
+    }
+
+    p {
+        color: $text;
+        margin: 0;
+    }
+}
 }
 
 /*
@@ -901,6 +915,14 @@ footer {
         p {
             text-align: left;
         }
+    }
+
+    #career-objective {
+        text-align: center;
+
+        p {
+            text-align: left;
+        }   
     }
 
 }
